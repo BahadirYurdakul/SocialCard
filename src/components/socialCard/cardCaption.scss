@@ -1,0 +1,53 @@
+@import '../../static/style/mixins.scss';
+
+$padding-between-user-details: 0.2rem;
+
+.card-caption{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 0.4rem;
+
+  &__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: auto;
+
+    &__user-details{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 1.2rem;
+      line-height: 2.2rem;
+
+      &__name{
+        font-weight: bold;
+        padding-right: 0.6rem;
+      }
+
+      &__username, &__dot, &__date {
+        padding-right: 0.3rem;
+      }
+
+      &__dot{
+        line-height: 1.5rem;
+      }
+
+      &__username, &__dot, &__date{
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+.card-caption__footer{
+
+  button{
+    @include transparent-button;
+    color: grey;
+    font-size: 1.4rem;
+  }
+}

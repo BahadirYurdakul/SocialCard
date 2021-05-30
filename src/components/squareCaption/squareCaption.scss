@@ -1,0 +1,7 @@
+@import '../../static/style/mixins.scss';
+
+.square-caption{
+  @include center-element;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+@import '../../static/style/constants.scss';
+
+.social-card-footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  line-height: 2rem;
+  border: 0.12rem solid beige;
+  border-radius: 0 0 0.3rem 0.3rem;
+
+  &__title{
+    font-weight: bold;
+  } 
+
+  &__description{
+    line-height: normal;
+  }
+
+  &__link{
+    color: darkgray;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../static/style/constants.scss';
+
+.image-ribbon{
+  position: relative;
+  width: 100%;
+
+  &__image{
+    border-radius: 0.6rem 0.6rem 0 0;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &__ribbon--top{
+    position: absolute;
+    height: $ribbonTopSquareSize;
+    width: $ribbonTopSquareSize;
+    left: 0.5rem;
+    top: 0.5rem;
+  }
+
+  &__ribbon--bottom{
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    width: $ribbonBottomWidth;
+    height: $ribbonBottomHeight;
+  }
+}

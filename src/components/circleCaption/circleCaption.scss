@@ -1,0 +1,11 @@
+@import '../../static/style/constants.scss';
+@import '../../static/style/mixins.scss';
+
+.circle-caption {
+  @include center-element;
+  height: $circleSize;
+  width: $circleSize;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: large;
+}

@@ -1,0 +1,26 @@
+// mixins are one of the very useful sass features.
+// to learn more about variables: https://htmlcolorcodes.com/tutorials/scss-color-variables/
+
+@import "./constants";
+
+@mixin center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@mixin transparent-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+@mixin responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}

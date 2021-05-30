@@ -1,0 +1,29 @@
+
+
+.interaction-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+
+  &__button-wrapper{
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    font-size: 1.4rem;
+
+    &__text{
+      font-size: 0.9rem;
+      font-weight: bold;
+      padding-left: 0.4rem;
+    }
+  }
+}
+
+.retweeted {
+  color: green;
+}
+
+.liked {
+  color: red;
+}

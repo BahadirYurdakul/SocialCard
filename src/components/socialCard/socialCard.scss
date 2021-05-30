@@ -1,0 +1,48 @@
+@import '../../static/style/mixins.scss'; 
+
+.social-card{
+  @include center-element;
+  flex-direction: column;
+  width: 40rem;
+
+  hr{
+    width: 100%;
+    max-width: 90vw;
+  }
+  &__box{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0.4rem;
+    width: 100%;
+    max-width: 90vw;
+
+    &__header{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    @media screen and (max-width: $mobile-device-max) {
+      &__header {
+        display: none;
+      }
+    }
+
+    &__body{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &__footer-buttons{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+  }
+}
