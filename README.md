@@ -1,7 +1,7 @@
 # SocialCard
 
 # Used Technologies
-ReactJs, Sass, BEM
+ReactJs, Typescript Sass, BEM
 
 # Project Goal
 This project is created in order to develop reusable and responsive social card component and also for exercising css.
