@@ -4,7 +4,7 @@
 ReactJs, Sass, BEM
 
 # Project Goal
-This project is created in order to develop reusable social card component and also for exercising css.
+This project is created in order to develop reusable and responsive social card component and also for exercising css.
 The project is inspired by "https://daveceddia.com/react-practice-projects/".
 
 # Sample Screenshot
